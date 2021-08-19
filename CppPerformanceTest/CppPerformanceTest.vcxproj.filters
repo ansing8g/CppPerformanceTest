@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="NetworkThread.cpp" />
+    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="Task.cpp" />
+    <ClCompile Include="ConditionVariable.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="LockControl.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Leader_Followers.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="UsingThreadPool.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="NetworkThread.h" />
+    <ClInclude Include="Server.h" />
+    <ClInclude Include="IFramework.h" />
+    <ClInclude Include="Task.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="ConditionVariable.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="LockControl.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Leader_Followers.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h" />
+    <ClInclude Include="UsingThreadPool.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{6d95a068-9d47-458f-b407-311beff429f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
